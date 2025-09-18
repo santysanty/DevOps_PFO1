@@ -5,6 +5,8 @@
     <title>Práctica DevOps</title>
 </head>
 <body>
+
+    <p>Este es un contenido básico para el index.html.</p>
     <h1>¡Bienvenido a la práctica DevOps - VISTA UI!</h1>
     
     <form id="profileForm">
@@ -31,7 +33,7 @@
             const data = { username: username };
 
             // Realizar la llamada Ajax usando la API fetch()
-            fetch('https://jsonplaceholder.typicode.com/posts', {
+            fetch('backend.php', {
                 method: 'POST', // Usar el método POST
                 headers: {
                     'Content-Type': 'application/json', // Indicar que el contenido es JSON
@@ -57,5 +59,6 @@
             });
         });
     </script>
+>>>>>>> 5edbf0eeb85d6a26d63e44534c80803341b09371
 </body>
 </html>
